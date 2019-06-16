@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fernanda</string>
+    <string name="titulo_escuchando">Escuchado</string>
+    <string name="texto_escuchando">Toca el microfono para escucharte.</string>
+    <string name="titulo_respuesta">Respuesta</string>
+    <string name="texto_respuesta">Aqui aparecera tu respuesta!</string>
+</resources>
