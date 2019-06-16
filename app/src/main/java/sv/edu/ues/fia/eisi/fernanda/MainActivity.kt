@@ -247,6 +247,11 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             reemplazarTextos(escuchado, "Abriendo Contactos")
             val launchIntent = packageManager.getLaunchIntentForPackage("com.android.contacts")
             startActivity(launchIntent)
+        } else if (app == "playstore") {
+            reemplazarTextos(escuchado, "Abriendo PlayStore")
+            val prueba = Intent(android.content.Intent.ACTION_VIEW)
+            prueba.data = Uri.parse("https://play.google.com/store/")
+            startActivity(prueba)
         }
     }
 
