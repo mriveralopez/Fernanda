@@ -252,6 +252,10 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             val prueba = Intent(android.content.Intent.ACTION_VIEW)
             prueba.data = Uri.parse("https://play.google.com/store/")
             startActivity(prueba)
+        } else if (app == "youtube") {
+            reemplazarTextos(escuchado, "Abriendo YouTube")
+            val launchIntent = packageManager.getLaunchIntentForPackage("com.google.android.youtube")
+            startActivity(launchIntent)
         }
     }
 
