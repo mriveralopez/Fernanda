@@ -12,12 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <!--<Button
             android:id="@+id/btnPrueba"
             android:layout_height="100dp"
             android:layout_width="100dp"
             android:onClick="prueba"
-            android:text="prueba"/>
+            android:text="prueba"/>-->
 
         <ImageView
             android:layout_width="wrap_content"

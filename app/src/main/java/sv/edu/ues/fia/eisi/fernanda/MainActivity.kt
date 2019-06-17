@@ -22,7 +22,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListener {
 
     fun prueba(view: View) {
-        funciones("Escribir mensaje al 72274441","writesmsbyphonenumber", "(72274441)")
     }
 
     override fun onInit(status: Int) {
@@ -155,6 +154,37 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             var app = sinParentesisAbrir.replace(parentesisCerrar, newValue)
             abrirApp(escuchado, app.toLowerCase())
         }
+        if (funcion == "llamarpornombre") {
+            val parentesisAbrir = "("
+            val parentesisCerrar = ")"
+            val newValue = ""
+
+            var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
+            var nombre = sinParentesisAbrir.replace(parentesisCerrar, newValue)
+
+//            try {
+                var db: ControlDB
+                db = ControlDB(this)
+                var numero = db.buscarContacto(nombre)
+
+                if (numero.length > 0) {
+                    reemplazarTextos(escuchado, "Llamando")
+
+                    val i = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                    if (ActivityCompat.checkSelfPermission(
+                            this,
+                            android.Manifest.permission.CALL_PHONE
+                        ) != PackageManager.PERMISSION_GRANTED
+                    )
+                        return
+                    startActivity(i);
+                } else {
+                    reemplazarTextos(escuchado, "No se encontro el numero de " + nombre)
+                }
+//            } catch (e: Exception) {
+//                reemplazarTextos(escuchado, "No se encontro el numero de " + nombre)
+//            }
+        }
         if (funcion == "llamarpornumero") {
             val parentesisAbrir = "("
             val parentesisCerrar = ")"
@@ -163,7 +193,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
             var numero = sinParentesisAbrir.replace(parentesisCerrar, newValue)
 
-            reemplazarTextos(escuchado, "Llamando al " + numero)
+            reemplazarTextos(escuchado, "Llamando")
 
             val i = Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
             if(ActivityCompat.checkSelfPermission(this,android.Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED)
@@ -193,12 +223,69 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
             var numero = sinParentesisAbrir.replace(parentesisCerrar, newValue)
 
-            reemplazarTextos(escuchado, "Esciba el mensaje a continuacion al " + numero)
+            reemplazarTextos(escuchado, "Esciba el mensaje a continuacion")
 
             val uri = Uri.parse("smsto:" + numero)
             val intent = Intent(Intent.ACTION_SENDTO, uri)
             intent.putExtra("sms_body", "Escribe tu mensaje aquí...")
             startActivity(intent)
+        }
+        if (funcion == "writesmsbyname") {
+            val parentesisAbrir = "("
+            val parentesisCerrar = ")"
+            val newValue = ""
+
+            var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
+            var nombre = sinParentesisAbrir.replace(parentesisCerrar, newValue)
+
+            try {
+                var db: ControlDB
+                db = ControlDB(this)
+                var numero = db.buscarContacto(nombre)
+
+                if (numero.length > 0) {
+                    reemplazarTextos(escuchado, "Esciba el mensaje a continuacion")
+
+                    val uri = Uri.parse("smsto:" + numero)
+                    val intent = Intent(Intent.ACTION_SENDTO, uri)
+                    intent.putExtra("sms_body", "Escribe tu mensaje aquí...")
+                    startActivity(intent)
+                } else {
+                    reemplazarTextos(escuchado, "No se encontro el numero de " + nombre)
+                }
+            } catch (e: Exception) {
+                reemplazarTextos(escuchado, "No se encontro el numero de " + nombre)
+            }
+        }
+        if (funcion == "createcontact") {
+            val parentesisAbrir = "("
+            val parentesisCerrar = ")"
+            val newValue = ""
+
+            var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
+            var sinParetesisCerrar = sinParentesisAbrir.replace(parentesisCerrar, newValue)
+
+            var delimiter = "&"
+            val parts = sinParetesisCerrar.split(delimiter)
+
+            try {
+                if (parts.size > 1) {
+                    var db: ControlDB
+                    db = ControlDB(this)
+                    if (db.agregarContacto(parts[0], parts[1])) {
+                        reemplazarTextos(escuchado, "Contacto agregado")
+                    } else {
+                        reemplazarTextos(escuchado, "Error al guardar")
+                    }
+                } else {
+                    reemplazarTextos(escuchado, "Error al guardar")
+                }
+            } catch (e: java.lang.Exception) {
+                reemplazarTextos(escuchado, "Error al guardar")
+            }
+        }
+        if (funcion == "alarm") {
+
         }
     }
 
@@ -247,7 +334,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             reemplazarTextos(escuchado, "Abriendo Contactos")
             val launchIntent = packageManager.getLaunchIntentForPackage("com.android.contacts")
             startActivity(launchIntent)
-        } else if (app == "playstore") {
+        } else if (app == "play store") {
             reemplazarTextos(escuchado, "Abriendo PlayStore")
             val prueba = Intent(android.content.Intent.ACTION_VIEW)
             prueba.data = Uri.parse("https://play.google.com/store/")
@@ -316,6 +403,11 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
     }
 
     fun configAsistente() {
+
+        var db : ControlDB
+        db = ControlDB(this)
+        db.llenarBase()
+
         val configuracion = AIConfiguration(
             accessToken,
             ai.api.AIConfiguration.SupportedLanguages.Spanish,
