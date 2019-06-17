@@ -17,6 +17,12 @@ import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
 import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
+import java.util.*
+import android.app.AlarmManager
+import android.app.PendingIntent
+import android.content.Context
+
+
 
 
 class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListener {
@@ -285,7 +291,32 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             }
         }
         if (funcion == "alarm") {
+            val parentesisAbrir = "("
+            val parentesisCerrar = ")"
+            val newValue = ""
 
+            var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
+            var time = sinParentesisAbrir.replace(parentesisCerrar, newValue)
+
+            var delimiter = ":"
+            val parts = time.split(delimiter)
+
+            val c = Calendar.getInstance()
+            c.set(Calendar.HOUR_OF_DAY, parts[0].toInt())
+            c.set(Calendar.MINUTE, parts[1].toInt())
+            c.set(Calendar.SECOND, parts[2].toInt())
+
+            val alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
+            val intent = Intent(this, AlertReceiver::class.java)
+            val pendingIntent = PendingIntent.getBroadcast(this, 1, intent, 0)
+
+            if (c.before(Calendar.getInstance())) {
+                c.add(Calendar.DATE, 1)
+            }
+
+            alarmManager.setExact(AlarmManager.RTC_WAKEUP, c.timeInMillis, pendingIntent)
+
+            reemplazarTextos(escuchado, "Alarma creada a las " + time)
         }
     }
 
