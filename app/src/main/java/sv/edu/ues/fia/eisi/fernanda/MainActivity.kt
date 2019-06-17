@@ -21,7 +21,6 @@ import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
 
-
 class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListener {
 
     override fun onInit(status: Int) {
@@ -33,10 +32,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
         val escuchado = respuesta?.resolvedQuery
         val responder = respuesta?.fulfillment?.speech
 
-        tv_res.text = responder
-
         probarFunciones(escuchado, responder)
-        //reemplazarTextos(escuchado,responder)
     }
 
     fun probarFunciones(escuchado: String?, respuesta: String?) {
@@ -223,7 +219,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
             var sinParentesisAbrir = variables.replace(parentesisAbrir, newValue)
             var numero = sinParentesisAbrir.replace(parentesisCerrar, newValue)
 
-            reemplazarTextos(escuchado, "Esciba el mensaje a continuacion")
+            reemplazarTextos(escuchado, "Escriba el mensaje a continuacion")
 
             val uri = Uri.parse("smsto:" + numero)
             val intent = Intent(Intent.ACTION_SENDTO, uri)
@@ -244,7 +240,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
                 var numero = db.buscarContacto(nombre)
 
                 if (numero.length > 0) {
-                    reemplazarTextos(escuchado, "Esciba el mensaje a continuacion")
+                    reemplazarTextos(escuchado, "Escriba el mensaje a continuacion")
 
                     val uri = Uri.parse("smsto:" + numero)
                     val intent = Intent(Intent.ACTION_SENDTO, uri)
