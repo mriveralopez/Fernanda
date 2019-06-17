@@ -15,7 +15,6 @@ import android.provider.MediaStore
 import android.speech.tts.TextToSpeech
 import android.support.v4.app.ActivityCompat
 import android.support.v4.content.ContextCompat
-import android.view.View
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 import android.app.AlarmManager
@@ -23,12 +22,7 @@ import android.app.PendingIntent
 import android.content.Context
 
 
-
-
 class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListener {
-
-    fun prueba(view: View) {
-    }
 
     override fun onInit(status: Int) {
 
@@ -393,7 +387,6 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
     }
 
     override fun onListeningStarted() {
-
     }
 
     override fun onAudioLevel(level: Float) {
@@ -410,7 +403,6 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
     }
 
     override fun onListeningFinished() {
-
     }
 
     val accessToken = "db891e5debfa4f0481c9f0a5c30520c9"

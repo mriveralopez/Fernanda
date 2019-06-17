@@ -6,12 +6,14 @@ import android.app.NotificationManager;
 import android.content.Context;
 import android.content.ContextWrapper;
 import android.os.Build;
+import android.os.Vibrator;
 import android.support.v4.app.NotificationCompat;
 
 public class NotificationHelper extends ContextWrapper {
 
     public static final String channelID = "channelID";
     public static final String channelName = "Channel Name";
+    private Vibrator vibrator = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
 
     private NotificationManager mManager;
 
@@ -38,7 +40,21 @@ public class NotificationHelper extends ContextWrapper {
     }
 
     public NotificationCompat.Builder getChannelNotification() {
-        return new NotificationCompat.Builder(getApplicationContext(), channelID).setContentTitle("Alarma!").setContentText("Es hora de Despertar.").setSmallIcon(R.drawable.ic_access_alarm_black_24dp);
+        //Compruebe si dispositivo tiene un vibrador.
+        if (vibrator.hasVibrator()) {
+//            long tiempo = 500;
+//            vibrator.vibrate(tiempo);
 
+            long[] pattern = {400, //sleep
+                    600, //vibrate
+                    100,300,100,150,100,75};
+            // con -1 se indica desactivar repeticion del patron
+            vibrator.vibrate(pattern, -1);
+        }
+
+        return new NotificationCompat.Builder(getApplicationContext(), channelID)
+                .setContentTitle("Alarma!")
+                .setContentText("Es hora de Despertar.")
+                .setSmallIcon(R.drawable.ic_access_alarm_black_24dp);
     }
 }
