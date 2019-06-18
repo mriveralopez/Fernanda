@@ -308,6 +308,13 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
 
             reemplazarTextos(escuchado, "Alarma creada a las " + time)
         }
+        if (funcion == "email") {
+            val intent = Intent(Intent.ACTION_SENDTO)
+            intent.data = Uri.parse("mailto:") // only email apps should handle this
+            if (intent.resolveActivity(packageManager) != null) {
+                startActivity(intent)
+            }
+        }
     }
 
 //    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {

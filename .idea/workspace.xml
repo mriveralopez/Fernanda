@@ -35,30 +35,15 @@
       <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_fernanda.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_fernanda_round.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/CamaraActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/drawable/ic_android_black_24dp.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_camara.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/app/src/main/java/sv/edu/ues/fia/eisi/alarma/AlertReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/app/src/main/java/sv/edu/ues/fia/eisi/alarma/NotificationHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/app/src/main/java/sv/edu/ues/fia/eisi/alarma/TimePickerFragment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../alarma/app/src/main/res/drawable/ic_android_black_24dp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/sv/edu/ues/fia/eisi/fernanda/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/sv/edu/ues/fia/eisi/fernanda/MainActivity.kt" afterDir="false" />
@@ -67,28 +52,189 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GADE" beforeDir="false" afterPath="$PROJECT_DIR$/../GADE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/AsistenteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/AsistenteActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/Respuestas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/Respuestas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_asistente.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_asistente.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Actor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/ControlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/ControlDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Pais.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Recaudacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Recaudacion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionConsultarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionConsultarActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionEliminarActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionEliminarActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_consultar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_consultar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_eliminar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_eliminar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pdm115-proyecto1" beforeDir="false" afterPath="$PROJECT_DIR$/../pdm115-proyecto1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/ControlDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/ControlDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GADE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/androidTest/java/sv/edu/ues/fia/eisi/basedatosmd12038/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/Alumno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/AlumnoActualizarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/AlumnoConsultarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/AlumnoEliminarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/AlumnoInsertarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/AlumnoMenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/ControlBDCarnet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/Materia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MateriaActualizarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MateriaConsultarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MateriaEliminarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MateriaInsertarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/MateriaMenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/Nota.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/NotaActualizarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/NotaConsultarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/NotaEliminarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/NotaInsertarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/java/sv/edu/ues/fia/eisi/basedatosmd12038/NotaMenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_alumno_actualizar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_alumno_consultar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_alumno_eliminar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_alumno_insertar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_alumno_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_materia_actualizar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_materia_consultar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_materia_eliminar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_materia_insertar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_materia_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_nota_actualizar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_nota_consultar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_nota_eliminar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_nota_insertar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/layout/activity_nota_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/app/src/test/java/sv/edu/ues/fia/eisi/basedatosmd12038/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MD12038 04/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/androidTest/java/sv/edu/ues/fia/eisi/proyecto2pdm/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/AsistenteActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/java/sv/edu/ues/fia/eisi/proyecto2pdm/Respuestas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/drawable/asistente.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/drawable/microfono.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_asistente.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/app/src/test/java/sv/edu/ues/fia/eisi/proyecto2pdm/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Proyecto2PDM/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Actor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/ControlDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Pais.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/Recaudacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionConsultarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/java/sv/edu/ues/fia/eisi/rl1602402prueba/RecaudacionEliminarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_consultar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/layout/activity_recaudacion_eliminar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RL1602402prueba/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../apiaiexampleandroid-master/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pdm115-proyecto1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl1602401.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl1602402 (viejo).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl1602402.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/androidTest/java/sv/edu/ues/fia/eisi/rl16024rep3/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/Articulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/Compra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/CompraConsultarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/CompraEliminarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/CompraInsertarActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/ControlDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/java/sv/edu/ues/fia/eisi/rl16024rep3/TipoCompra.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/layout/activity_compra_consultar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/layout/activity_compra_eliminar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/layout/activity_compra_insertar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/app/src/test/java/sv/edu/ues/fia/eisi/rl16024rep3/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rl16024rep3/settings.gradle" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,8 +269,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/sv/edu/ues/fia/eisi/fernanda/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="221" column="45" selection-start-line="221" selection-start-column="45" selection-end-line="221" selection-end-column="45" />
+            <state relative-caret-position="340">
+              <caret line="310" column="33" lean-forward="true" selection-start-line="310" selection-start-column="33" selection-end-line="310" selection-end-column="33" />
               <folding>
                 <element signature="e#38#718#0" expanded="true" />
               </folding>
@@ -184,7 +330,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
@@ -208,6 +353,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -333,10 +479,10 @@
       <window_info anchor="bottom" id="TODO" order="1" sideWeight="0.4993895" weight="0.32941177" />
       <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" sideWeight="0.4993895" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.498779" weight="0.32941177" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.503663" side_tool="true" visible="true" weight="0.34438503" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.497558" weight="0.32941177" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.50427353" side_tool="true" visible="true" weight="0.34438503" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.496337" visible="true" weight="0.34438503" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4957265" visible="true" weight="0.34438503" />
       <window_info anchor="bottom" id="Logcat" order="8" weight="0.32941177" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32941177" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.32967034" />
@@ -516,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/sv/edu/ues/fia/eisi/fernanda/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="221" column="45" selection-start-line="221" selection-start-column="45" selection-end-line="221" selection-end-column="45" />
+        <state relative-caret-position="340">
+          <caret line="310" column="33" lean-forward="true" selection-start-line="310" selection-start-column="33" selection-end-line="310" selection-end-column="33" />
           <folding>
             <element signature="e#38#718#0" expanded="true" />
           </folding>
