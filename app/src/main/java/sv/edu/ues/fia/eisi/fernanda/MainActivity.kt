@@ -32,7 +32,11 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
         val escuchado = respuesta?.resolvedQuery
         val responder = respuesta?.fulfillment?.speech
 
-        probarFunciones(escuchado, responder)
+        try {
+            probarFunciones(escuchado, responder)
+        } catch (e: Exception) {
+            reemplazarTextos(escuchado, "Lo siento no he logrado resolver tu peticion, intenta de nuevo mas tarde!")
+        }
     }
 
     fun probarFunciones(escuchado: String?, respuesta: String?) {
@@ -348,7 +352,7 @@ class MainActivity : AppCompatActivity(), AIListener, TextToSpeech.OnInitListene
         else if (app == "facebook") {
             reemplazarTextos(escuchado, "Abriendo Facebook")
             try {
-                val launchIntent = packageManager.getLaunchIntentForPackage("com.facebook")
+                val launchIntent = packageManager.getLaunchIntentForPackage("com.facebook.katana")
                 startActivity(launchIntent)
             } catch (e: Exception) {
                 val launchIntent = packageManager.getLaunchIntentForPackage("com.facebook.lite")
